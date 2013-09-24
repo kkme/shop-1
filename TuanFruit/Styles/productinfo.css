@@ -1,0 +1,161 @@
+﻿body {
+}
+#pmain
+{
+    float:left;
+    width:100%;
+    margin-top:10px;
+}
+#pmainC
+{
+    width:880px;
+    margin:0 auto;
+}
+#pmainleft
+{
+    float:left;
+    width:180px;
+    margin-right:8px;
+    border:solid 1px #e7e7e7;
+    padding:10px;
+    height:auto;
+}
+#pmainleft h3
+{   
+	width:100%;
+	float:left;
+    font-size:14px;
+    color:#777;
+    padding-bottom:5px;
+    border-bottom:solid 2px #e7e7e7;
+    margin-bottom:10px;
+}
+#pmainleft img
+{
+	float:left;
+	width:160px;
+	height:50px;
+	margin-bottom:5px;
+	border:0;
+	clear:both;
+}
+	
+#pmainleft ul
+{
+	float:left;
+    list-style-type:none;
+    width:100%;
+    margin-bottom:10px;
+}
+#pmainleft ul li
+{
+    display:block;
+    height:25px;
+    line-height:25px;    
+}
+#pmainleft ul li a
+{
+    text-decoration:none;
+    color:#393939;
+    font-size:13px;
+}
+#pmainleft ul li:hover
+{
+    background-color:#e6e6e6;
+}
+#pmainright
+{
+    float:left;
+    width:670px;
+}
+#productinfo
+{
+    float:left;
+    width:100%;    
+}
+#productinfo_li
+{
+    float:left;
+    width:100%;
+    margin:10px 0;
+    padding-bottom:8px;
+    border-bottom:dashed 1px #e7e7e7;
+}
+#productinfo_left
+{
+    float:left;
+    width:240px;
+    margin-right:10px;   
+}
+#productinfo_left img
+{
+    width:240px;
+    height:230px;
+    border:0;
+}
+#productinfo_right
+{
+    float:left;
+    width:400px;  
+}
+#productinfo_right ul
+{
+    list-style-type:none;
+      margin-top:20px;
+      font-size:14px;
+}
+#productinfo_right ul li
+{
+    display:block;
+    line-height:30px;
+}
+#productinfo_main
+{
+    float:left;
+    width:650px;
+    height:auto;
+    padding:10px;   
+    line-height:1.6em; 
+}
+#productinfo_main img
+{
+    max-width:500px;
+}
+
+#pdh
+{
+    width:100%;
+    height:20px;
+    line-height:20px;
+    float:left;
+     border-bottom:dashed 1px #e7e7e7;
+     margin-bottom:20px;
+    
+}
+#pdh ul
+{   
+    list-style-type:none;
+    float:left;  
+}
+#pdh ul li
+{
+    display:block;
+    float:left;
+    margin-right:5px;
+    font-size:13px;
+    color:#777;
+}
+#pdh a
+{
+    text-decoration:none;
+    color:#336699;
+}
+.mb20
+{
+    margin-bottom:20px;
+}
+
+
+
+    
+

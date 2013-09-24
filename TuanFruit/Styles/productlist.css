@@ -1,0 +1,151 @@
+﻿body {
+}
+#pmain
+{
+    float:left;
+    width:100%;
+    margin-top:10px;
+}
+#pmainC
+{
+    width:880px;
+    margin:0 auto;
+}
+#pmainleft
+{
+    float:left;
+    width:180px;
+    margin-right:8px;
+    border:solid 1px #e7e7e7;
+    padding:10px;
+    height:auto;
+}
+#pmainleft h3
+{   
+	width:100%;
+	float:left;
+    font-size:14px;
+    color:#777;
+    padding-bottom:5px;
+    border-bottom:solid 2px #e7e7e7;
+    margin-bottom:10px;
+}
+#pmainleft img
+{
+	float:left;
+	width:160px;
+	height:50px;
+	margin-bottom:5px;
+	border:0;
+	clear:both;
+}
+	
+#pmainleft ul
+{
+	float:left;
+    list-style-type:none;
+    width:100%;
+    margin-bottom:10px;
+}
+#pmainleft ul li
+{
+    display:block;
+    height:25px;
+    line-height:25px;    
+}
+#pmainleft ul li a
+{
+    text-decoration:none;
+    color:#393939;
+    font-size:13px;
+}
+#pmainleft ul li:hover
+{
+    background-color:#e6e6e6;
+}
+#pmainright
+{
+    float:left;
+    width:670px;
+}
+#pdh
+{
+    width:100%;
+    height:20px;
+    line-height:20px;
+    float:left;
+     border-bottom:dashed 1px #e7e7e7;
+     margin-bottom:20px;
+    
+}
+#pdh ul
+{   
+    list-style-type:none;
+    float:left;
+}
+#pdh ul li
+{
+    display:block;
+    float:left;
+    margin-right:5px;
+    font-size:13px;
+    color:#777;
+}
+#pdh a
+{
+    text-decoration:none;
+    color:#336699;
+}
+#productlist
+{
+    width:100%;
+    float:left;
+    height:auto;
+    margin-top:10px;
+}
+.pli
+{
+   float:left;
+    display:block;
+    width:209px;
+    height:300px;
+    border:solid 1px #eeefff;
+    text-align:center;
+    margin-right:8px;
+    margin-bottom:10px;
+    padding:5px 2px 2px 2px;
+}
+.pli:hover
+{
+    float:left;
+    display:block;
+    width:209px;
+    height:300px;
+    border:solid 1px #777;
+    text-align:center;
+    margin-right:8px;
+    margin-bottom:10px;
+    padding:5px 2px 2px 2px;
+}
+.pli a
+{
+    text-decoration:none;
+    display:block;
+    margin-bottom:5px;
+    color:#777;
+    font-size:14px;
+}
+
+.pli img
+{
+    border:0;
+    _width:210px;
+    _height:200px;
+    *width:210px;
+    *height:200px;
+    margin-bottom:8px;
+    max-width:210px;
+    max-height:200px;
+    text-align:center;
+}
+    

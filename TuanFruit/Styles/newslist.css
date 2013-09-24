@@ -1,0 +1,194 @@
+﻿body
+{
+}
+
+#pmain
+{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+#pmainC
+{
+	width: 880px;
+	margin: 0 auto;
+}
+#pmainleft
+{
+	float: left;
+	width: 180px;
+	margin-right: 28px;	
+	height: auto;
+}
+#pmainleft1
+{
+	border: solid 1px #e7e7e7;
+	float: left;
+	width: 160px;	
+	padding: 10px;
+	height: auto;
+}
+#pmainleft h3
+{
+	font-size: 14px;
+	color: #777;
+	padding-bottom: 5px;
+	border-bottom: solid 2px #e7e7e7;
+	margin-bottom: 10px;
+}
+#pmainleft ul
+{
+	list-style-type: none;
+	width: 100%;
+}
+#pmainleft ul li
+{
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 5px;
+}
+#pmainleft ul li a
+{
+	text-decoration: none;
+	color: #393939;
+}
+#pmainleft ul li:hover
+{
+	background-color: #e6e6e6;
+}
+#pmainright
+{
+	float: left;
+	width: 650px;
+}
+#pdh
+{
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	float: left;
+	border-bottom: dashed 1px #e7e7e7;
+    margin-bottom:20px;
+}
+#pdh ul
+{
+	list-style-type: none;
+	float: left;
+}
+#pdh ul li
+{
+	display: block;
+	float: left;
+	margin-right: 5px;
+	font-size: 13px;
+	color: #777;
+}
+#pmainleft img
+{
+	float: left;
+	margin-top: 15px;
+	border: 0;
+	width: 180px;
+}
+#pdh a
+{
+	text-decoration: none;
+	color: #336699;
+}
+#newslist
+{
+	width: 100%;
+	float: left;
+	height: auto;	
+}
+#newslist ul
+{
+	list-style-type: none;
+	font-size: 14px;
+}
+#newslist ul li
+{
+	display: block;
+	height: 15px;
+	border-bottom: dashed 1px #e7e7e7;
+	padding-bottom: 2px;
+	margin-bottom: 10px;
+}
+#newslist ul li a
+{
+	text-decoration: none;
+	color: #717171;
+}
+#newslist ul li a:hover
+{
+	color: Red;
+}
+#newsinfo
+{
+	width: 100%;
+	float: left;
+	height: auto;
+	margin-top: 20px;
+}
+#newstitle
+{
+	width: 100%;
+	float: left;
+	height: auto;
+	text-align: center;
+	margin-bottom:20px;
+}
+#newstitle h3
+{
+	font-size: 18px;
+	color: Black;
+	margin-bottom: 8px;
+	font-weight: normal;
+}
+#newstitle ul
+{
+	list-style-type: none;
+}
+#newstitle ul li
+{
+	display: inline;
+	margin-right: 5px;
+	color: black;
+	font-size: 13px;
+}
+#newscontent
+{
+	float: left;
+	width: 650px;
+	padding: 10px;
+	line-height: 1.6em;
+	overflow:hidden;
+	color:#717171;
+	font-size:14px;
+}
+.fl
+{
+	float: left;
+}
+.fr
+{
+	float: right;
+}
+.f13
+{
+	font-size: 13px;
+}
+.rpoint
+{
+	float: left;
+	background: url(/Images/point_1.gif) no-repeat 0 0;
+	width: 3px;
+	height: 3px;
+	margin: 3px 8px 0 0;
+}
+
+
+
+
+

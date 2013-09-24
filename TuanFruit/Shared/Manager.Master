@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Manager.master.cs" Inherits="TuanFruit.Shared.Manager" %>
+
+<%@ Register TagName="leftUC" TagPrefix="UCleft" Src="/Shared/left.ascx" %>
+<%@ Register TagName="topUC" TagPrefix="UCtop" Src="/Shared/mtop.ascx" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>团水果网站后台管理系统</title>
+    <link href="/Styles/base.css" type="text/css" rel="Stylesheet" />
+     <link href="/Styles/pagecss.css" type="text/css" rel="Stylesheet" />
+    <script type="text/javascript" src="/Scripts/manager.js"></script>
+    <script type="text/javascript" src="/Scripts/comm.js"></script>      
+      <script type="text/javascript" src="/Scripts/MyDialog.js"></script>    
+</head>
+<body>
+ <form id="form1" runat="server">   
+    <UCtop:topUC runat="server" ID="mytop"></UCtop:topUC> 
+    <div class="main">
+        <div class="left">
+            <div class="left1">
+            </div>
+            <div class="left2">
+                <UCleft:leftUC runat="server" ID="myleft"></UCleft:leftUC>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right-content">
+                <div class="right-content-url">
+                    <asp:ContentPlaceHolder ID="RightURL" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>                
+                <div class="right-content-search">
+                    <asp:ContentPlaceHolder ID="RightSearch" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div class="right-content-content">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </div>    
+     </form>
+</body>
+</html>

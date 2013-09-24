@@ -1,0 +1,199 @@
+﻿body 
+{
+    
+}
+*
+{
+    margin:0;
+    padding:0;
+}
+#main
+{
+    width:800px;
+    height:auto;
+    margin:0 auto;
+}
+#searchDH
+{
+    float:left;
+    width:800px;
+    margin:20px 0;
+}
+.dh_p1
+{
+    width:800px;
+    float:left;
+    margin:0 0 10px 0;
+}
+.dh_p1 a
+{
+    text-decoration:none;
+    background:url(/Images/a.gif) no-repeat 0 0;
+    float:left;
+    display:block;
+    width:190px;
+    height:33px;
+    text-align:center;
+    line-height:33px;
+    font-size:14px;
+    color:#393939;
+}
+.dh_p1 a:hover
+{
+    background:url(/Images/a.gif) no-repeat 0 -33px;
+    color:White;
+}
+
+.dh_p2
+{
+    width:800px;
+    float:left;
+    margin:0 0 10px 0;
+    font-size:13px;
+    color:#393939;
+}
+.dh_p2_txt
+{
+    width:90px;
+    height:22px;
+    line-height:22px;
+    border:solid 1px #efefef;
+}
+.dh_p2  select
+{
+    width:100px;
+    height:22px;
+    line-height:22px;
+    border:solid 1px #efefef;
+}
+.dh_p3
+{
+    width:800px;
+    float:left;
+    margin:0 0 10px 0;
+    font-size:13px;
+    color:#393939;
+}
+.dh_p3_txt
+{
+    width:230px;
+    height:22px;
+    line-height:22px;
+    border:solid 1px #efefef;
+}
+.fb
+{
+    font-weight:bold;
+}
+.dayin
+{
+    width:800px;
+    height:20px;   
+    float:left;
+    margin-bottom:10px;
+}
+.dayin_area
+{
+    width:750px;
+    float:left;
+    font-size:13px;
+    color:Black;
+}
+.dayin_area h2
+{
+    font-size:15px;
+    font-weight:bold;
+    color:Black;
+    margin:10px 0;
+}
+.otb
+{
+    background-color:#a8c7ce;
+    margin-bottom:20px;
+}
+.oimg
+{
+    padding:5px 0;
+}
+.oimg a
+{
+    text-decoration:none;
+}
+.oimg img
+{
+    border:0;
+    width:100px;
+    height:80px;    
+}
+.red
+{
+    color:Red;
+}
+
+#editorderdiv
+{
+    width:400px;
+	height:240px;
+	border:solid 1px #80AB73;	
+	display:none;	
+	text-align:left;
+	font-size:13px;
+}
+.tempclose
+{
+	height:18px; 
+	padding:2px;
+	font-size:18px;
+	line-height:18px;
+	background-color:#80AB73;
+	margin-bottom:10px;
+	
+}
+.tempclose a
+{
+    text-decoration:none;
+    color:White;    
+    font-size:13px;
+}
+.fccontent
+{
+	padding:10px;
+}
+.editordertb tr
+{
+    height:28px;
+    line-height:28px;
+}
+.fr
+{
+    float:right;
+}
+.cb
+{
+    color:Blue;
+}
+.mr5
+{
+    margin-right:5px;
+}
+#digg2
+{
+    width:800px;
+    float:left;
+    margin-top:10px;
+    font-size:13px;
+    margin-bottom:20px;
+}
+
+#bg{background:#777777;opacity: 0.5;-moz-opacity:0.5; filter:alpha(style=1,opacity=60); width:100%; height:100%;position:absolute; top:0; left:0;}
+#info{height:0px; width:0px;top:50%; left:50%;position:absolute;  line-height:1.7;font-size:13px;}
+#center{background:#fff;border:1px solid #a56607; width:300px;  position:absolute; margin:-50px -150px;font-size:13px;}
+#center strong{ display:block; padding:2px 5px; background:#fdd444; color:#a56607;}
+#center p{padding:10px; text-align:center; color:#652a0e;}
+
+.linkbtn{background-image:url("../images/taskBtnbg.gif");font-size:12px;width:80px;height:35px;display:block;float:left;line-height:35px;text-align:center;color:#000;text-decoration:none;margin-left:20px;}
+ 
+        
+    
+
+    
