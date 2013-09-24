@@ -12,7 +12,7 @@ namespace TuanFruit.Product
 {
     public partial class ProductList : System.Web.UI.Page
     {
-        protected string productlistHTML;
+         protected string productlistHTML;
         protected string pageHTML;
         protected string ptypeHTML="所有产品";
         protected void Page_Load(object sender, EventArgs e)
